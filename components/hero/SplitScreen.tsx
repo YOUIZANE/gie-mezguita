@@ -12,9 +12,10 @@ import {
 
 export default function SplitScreen() {
   return (
-    <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
-      <Flex p={8} flex={1} align={"center"} justify={"center"}>
-        <Stack spacing={6} w={"full"} maxW={"lg"}>
+    <Stack minH={"100vh"} m={10} direction={{ base: "column", md: "row" }}>
+       
+      <Flex p={10}  flex={1} align={"center"} justify={"center"}>
+        <Stack spacing={6} w={"full"} maxW={"lg"} >
           <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
             <Text
               as={"span"}
@@ -59,9 +60,10 @@ export default function SplitScreen() {
           </Stack>
         </Stack>
       </Flex>
-      <Flex flex={1}>
-        <Image alt={"Login Image"} objectFit={"cover"} src={data.hero} />
+      <Flex flex={1} m={10}>
+        <Image alt={"hero Image"} objectFit={"cover"}  src={data.hero} />
       </Flex>
+     
     </Stack>
   );
 }

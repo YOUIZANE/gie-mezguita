@@ -9,10 +9,12 @@ import {
   useBreakpointValue,
   useDisclosure,
   useColorMode,
+  Collapse,
 } from "@chakra-ui/react";
 import { SunIcon, MoonIcon } from "@chakra-ui/icons";
 import Image from "next/image";
 import data from "@/data/data";
+import MobileNav from "./MobileNav";
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -64,8 +66,8 @@ export default function WithSubnavigation() {
               <Image
                 src={data.sitelogo}
                 alt="gie mezguita logo"
-                width={70}
-                height={70}
+                width={60}
+                height={60}
               />
             </Text>
 
