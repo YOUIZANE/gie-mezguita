@@ -7,6 +7,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import Rating from "./Rating";
+import { ProductProps } from "@/types/types";
 
 function CategoryCard({
   isNew,
