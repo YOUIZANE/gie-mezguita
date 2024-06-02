@@ -1,5 +1,6 @@
 'use client'
 
+import { NavItem } from "@/types/types";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Box, Flex, Icon, Link, Stack, useColorModeValue ,Text} from "@chakra-ui/react";
 
