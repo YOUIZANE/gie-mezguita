@@ -1,5 +1,6 @@
 "use client";
 
+import { RatingProps } from "@/types/types";
 import { Box } from "@chakra-ui/react";
 import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
 
