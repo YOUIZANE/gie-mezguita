@@ -1,5 +1,6 @@
 "use client";
 
+import { NavItem } from "@/types/types";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import {
   Flex,
